@@ -27,7 +27,6 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-
     "plugins": [
       "expo-router"
     ],
@@ -39,6 +38,14 @@
         }
       ]
     ],
-    "scheme":"MyGoogleApp"
+    "scheme": "MyGoogleApp",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "1e655ef6-18e3-4a8b-9001-64f857e04b99"
+      }
+    }
   }
 }
